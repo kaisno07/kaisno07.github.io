@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+  <addon id="plugin.video.myfshare" name="MyFshare Player" version="1.0.0" provider-name="Personal">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="script.module.requests" version="2.31.0"/>
+      <import addon="script.module.beautifulsoup4" version="4.12.2"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">MyFshare Personal Player</summary>
+      <description lang="en_GB">Xem phim cá nhân từ Fshare VIP</description>
+      <disclaimer lang="en_GB">Chỉ dùng cá nhân với tài khoản Fshare hợp lệ</disclaimer>
+      <language></language>
+      <platform>all</platform>
+      <license>GPL-3.0</license>
+      <news>
+      [1.0.0] - 2026-06-19
+      - Khởi tạo addon cá nhân.
+      - Hỗ trợ duyệt phim và stream từ Fshare VIP.
+      - Tìm kiếm phim, phân trang.
+      </news>
+      <assets>
+        <icon>resources/images/icons/icon.png</icon>
+      </assets>
+    </extension>
+  </addon>
+</addons>
